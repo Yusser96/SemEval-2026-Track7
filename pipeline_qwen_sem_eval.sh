@@ -25,10 +25,8 @@ ALPHA="$1";
 echo "alpha:" $ALPHA;
 
 
-# languages_saq=('am-ET' 'ar-DZ' 'ar-EG' 'ar-MA' 'ar-SA' 'as-AS' 'az-AZ' 'bg-BG' 'el-GR' 'en-AU' 'en-AZ' 'en-BG' 'en-CN' 'en-DZ' 'en-EG' 'en-ES' 'en-ET' 'en-FR' 'en-GB' 'en-GR' 'en-ID' 'en-IE' 'en-IR' 'en-JP' 'en-KR' 'en-LK' 'en-MA' 'en-NG' 'en-PH' 'en-SA' 'en-SE' 'en-TW' 'en-US' 'es-EC' 'es-ES' 'es-MX' 'eu-PV' 'eu-ES' 'fa-IR' 'fr-FR' 'ga-IE' 'ha-NG' 'id-ID' 'ja-JP' 'ko-KP' 'ko-KR' 'su-JB' 'sv-SE' 'ta-LK' 'tl-PH' 'zh-CN' 'zh-SG' 'zh-TW' 'ms-SG' 'ta-SG')
 languages_saq=("am-ET" "en-ET" "ar-DZ" "en-DZ" "ar-EG" "en-EG" "ar-MA" "en-MA" "ar-SA" "en-SA" "as-AS" "en-AS" "az-AZ" "en-AZ" "eu-PV" "en-PV" "bg-BG" "en-BG" "zh-CN" "en-CN" "zh-SG" "en-AU" "en-GB" "en-US" "fr-FR" "en-FR" "el-GR" "en-GR" "ha-NG" "en-NG" "id-ID" "en-ID" "ga-IE" "en-IE" "ja-JP" "en-JP" "ko-KP" "en-KP" "ko-KR" "en-KR" "ms-SG" "zh-TW" "en-TW" "fa-IR" "en-IR" "es-EC" "en-EC" "es-MX" "en-MX" "es-ES" "en-ES" "su-JB" "en-JB" "sv-SE" "en-SE" "tl-PH" "en-PH" "ta-SG" "ta-LK" "en-LK" "en-SG")
 
-# languages_mcq=('am-ET' 'ar-DZ' 'ar-EG' 'ar-MA' 'ar-SA' 'as-AS' 'az-AZ' 'bg-BG' 'el-GR' 'en-AU' 'en-GB' 'en-US' 'es-EC' 'es-ES' 'es-MX' 'eu-PV' 'fa-IR' 'fr-FR' 'ga-IE' 'ha-NG' 'id-ID' 'ja-JP' 'ko-KP' 'ko-KR' 'su-JB' 'sv-SE' 'ta-LK' 'tl-PH' 'zh-CN' 'zh-SG')
 languages_mcq=("ga-IE" "ar-MA" "tl-PH" "eu-PV" "ja-JP" "en-AU" "fr-FR" "ar-SA" "sv-SE" "zh-SG" "es-EC" "bg-BG" "ta-LK" "ar-EG" "en-GB" "en-US" "ko-KR" "ar-DZ" "zh-CN" "id-ID" "es-ES" "fa-IR" "es-MX" "as-AS" "el-GR" "am-ET" "ha-NG" "az-AZ" "ko-KP" "su-JB")
 
 # --use_sys_prompt
